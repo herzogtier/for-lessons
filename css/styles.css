@@ -1,14 +1,16 @@
-.text {
-    color: royalblue;
-    background-color: rgba(255, 0, 0, 0.3);
+body {
+  color: #2a2a2a;
 }
 
-p {
-    color: blue;
-    background-color: orange;
+/* .post {
+  color: blue;
+} */
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-p {
-    color: teal;
-    background-color: red;
+a:hover {
+  color: red;
 }
