@@ -1,16 +1,40 @@
-body {
-  color: #2a2a2a;
+.text > span {
+  text-decoration: line-through;
 }
 
-/* .post {
-  color: blue;
-} */
-
-a {
+.link {
   text-decoration: none;
-  color: inherit;
 }
 
-a:hover {
-  color: red;
+.site-nav {
+  text-transform: uppercase;
+}
+
+.post-title {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
+  font-size: 24px;
+}
+
+.post-text {
+  text-indent: 100px;
+  letter-spacing: 10px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 3.5;
+}
+
+.title {
+  color: #0e0d0d;
+  text-shadow: 2px 2px 4px #18066b;
 }
